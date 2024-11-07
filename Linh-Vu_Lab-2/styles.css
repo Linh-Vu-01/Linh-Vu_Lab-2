@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+}
+body{ 
+    font-family: 'Times New Roman', serif;
+    margin: 0;
+}
+h1 {
+    background-color: #120323;
+    color: #97bf04;
+    padding: 60px;
+    margin-top: 0;
+    text-align: center;
+}
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 60px;
+    box-shadow: 0 0 10px 10px black; /*X Y blur spread color*/
+    border-radius: 20px;
+    max-width: 900px;
+    max-height: 600px;
+}
+div {
+    text-align: center;
+}
+button {
+    background-color: #d9043d;
+    color: #120323;
+    margin-top: 30px;
+    padding: 10px;
+    border-color: darkgrey;
+    border-radius: 10px;  
+}
+.sheep {
+    #sheep {
+        background-color: #97bf04;
+    }
+}
+.bear {
+    #bear {
+        background-color: #97bf04;
+    }
+}
+.moose {
+    #moose {
+        background-color: #97bf04;
+    }
+}
+.wolf {
+    #wolf {
+        background-color: #97bf04;
+    }
+}
+.elk {
+    #elk {
+        background-color: #97bf04;
+    }
+}

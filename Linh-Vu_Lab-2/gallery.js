@@ -1,0 +1,50 @@
+sheep.addEventListener('click',function(){
+	console.log("sheep");
+	document.body.classList.remove("bear");
+	document.body.classList.remove("moose");
+	document.body.classList.remove("wolf");
+    document.body.classList.remove("elk");
+	document.body.classList.add("sheep");
+	document.getElementById("gallery").src="sheep.webp";
+	document.getElementById("gallery").alt="Bighorn Sheep";
+});
+bear.addEventListener('click',function(){
+	console.log("bear");
+	document.body.classList.remove("sheep");
+	document.body.classList.remove("moose");
+	document.body.classList.remove("wolf");
+    document.body.classList.remove("elk");
+	document.body.classList.add("bear");
+	document.getElementById("gallery").src="bear.webp";
+	document.getElementById("gallery").alt="Black Bear";
+})
+moose.addEventListener('click',function(){
+	console.log("moose");
+	document.body.classList.remove("sheep");
+	document.body.classList.remove("bear");
+	document.body.classList.remove("wolf");
+    document.body.classList.remove("elk");
+	document.body.classList.add("moose");
+	document.getElementById("gallery").src="moose.webp";
+	document.getElementById("gallery").alt="Black Moose";
+})
+wolf.addEventListener('click',function(){
+	console.log("wolf");
+	document.body.classList.remove("sheep");
+	document.body.classList.remove("bear");
+	document.body.classList.remove("moose");
+    document.body.classList.remove("elk");
+	document.body.classList.add("wolf");
+	document.getElementById("gallery").src="wolf.webp";
+	document.getElementById("gallery").alt="Wolf";
+})
+elk.addEventListener('click',function(){
+	console.log("elk");
+	document.body.classList.remove("sheep");
+	document.body.classList.remove("bear");
+	document.body.classList.remove("moose");
+    document.body.classList.remove("wolf");
+	document.body.classList.add("elk");
+	document.getElementById("gallery").src="elk.webp";
+	document.getElementById("gallery").alt="Elk";
+})
